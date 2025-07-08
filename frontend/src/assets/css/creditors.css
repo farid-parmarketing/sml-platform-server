@@ -1,0 +1,60 @@
+.creditors-table .my-table-head p:nth-child(1),
+.creditors-table .my-table-body p:nth-child(1) {
+  min-width: 50px !important;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+.creditors-table .my-table-head p:nth-child(2),
+.creditors-table .my-table-body p:nth-child(2) {
+  min-width: 300px !important;
+}
+.creditors-table .my-table-head p:nth-child(3),
+.creditors-table .my-table-body p:nth-child(3) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(4),
+.creditors-table .my-table-body p:nth-child(4) {
+  min-width: 150px !important;
+}
+.creditors-table .my-table-head p:nth-child(5),
+.creditors-table .my-table-body p:nth-child(5) {
+  min-width: 300px !important;
+}
+.creditors-table .my-table-head p:nth-child(6),
+.creditors-table .my-table-body p:nth-child(6) {
+  min-width: 150px !important;
+}
+.creditors-table .my-table-head p:nth-child(7),
+.creditors-table .my-table-body p:nth-child(7) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(8),
+.creditors-table .my-table-body p:nth-child(8) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(9),
+.creditors-table .my-table-body p:nth-child(9) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(10),
+.creditors-table .my-table-body p:nth-child(10) {
+  min-width: 150px !important;
+}
+.creditors-table .my-table-head p:nth-child(11),
+.creditors-table .my-table-body p:nth-child(11) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(12),
+.creditors-table .my-table-body p:nth-child(12) {
+  min-width: 150px !important;
+}
+.creditors-table .my-table-head p:nth-child(13),
+.creditors-table .my-table-body p:nth-child(13) {
+  min-width: 200px !important;
+}
+.creditors-table .my-table-head p:nth-child(14),
+.creditors-table .my-table-body p:nth-child(14) {
+  min-width: 220px !important;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}

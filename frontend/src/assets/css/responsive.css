@@ -1,0 +1,305 @@
+@media screen and (max-width: 1200px) {
+  .login-left .glass {
+    width: 500px;
+    height: 600px;
+  }
+  .girl {
+    width: 300px;
+  }
+  .welcome-grid {
+    grid-template-columns: repeat(11, 1fr);
+  }
+  .welcome-grid-box1 {
+    grid-area: 1 / 1 / 3 / 4;
+  }
+  .welcome-grid-box2 {
+    grid-area: 3 / 3 / 4 / 5;
+  }
+  .welcome-grid-box3 {
+    grid-area: 2 / 5 / 4 / 8;
+  }
+  .welcome-grid-box4 {
+    grid-area: 1 / 7 / 2 / 9;
+  }
+  .welcome-grid-box5 {
+    grid-area: 1 / 9 / 3 / 12;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .login-left .glass {
+    width: 100%;
+    height: auto;
+  }
+  .girl {
+    transform: translateX(0);
+    position: static;
+    margin-left: auto;
+  }
+  .login-right {
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .profile-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .agreement-modal {
+    width: calc(100% - 16px);
+  }
+  .welcome-grid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, minmax(120px, 1fr));
+  }
+  .welcome-grid-box1 {
+    grid-area: 1 / 1 / 4 / 5;
+  }
+  .welcome-grid-box2 {
+    grid-area: 4 / 2 / 6 / 5;
+  }
+  .welcome-grid-box3 {
+    grid-area: 3 / 5 / 6 / 9;
+  }
+  .welcome-grid-box4 {
+    grid-area: 6 / 6 / 8 / 9;
+  }
+  .welcome-grid-box5 {
+    grid-area: 5 / 9 / 8 / 13;
+  }
+  .arrow-flipped {
+    transform: translateY(-50%) scaleY(1);
+  }
+  .rc-ques-flex {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .payment-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .login-right {
+    padding: 48px;
+  }
+  .subscription-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .signin-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .signin-grid > div:nth-child(1) {
+    gap: 20px;
+  }
+  .signin-grid > div:nth-child(1) {
+    padding: 40px;
+  }
+  .outro-grid {
+    grid-template-columns: 1fr;
+  }
+  .outro-div1,
+  .outro-div2,
+  .outro-div3,
+  .outro-div4,
+  .outro-div5,
+  .outro-div6 {
+    grid-area: unset;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+  .login-container {
+    grid-template-columns: 1fr;
+    height: auto !important;
+  }
+  .login-left {
+    order: 2;
+    padding: 48px;
+  }
+  .login-right {
+    order: 1;
+  }
+  .girl {
+    transform: translateX(50px);
+  }
+  .welcome-grid {
+    grid-template-rows: repeat(6, minmax(120px, 1fr));
+  }
+  .welcome-grid-box1 {
+    grid-area: 1 / 1 / 3 / 8;
+  }
+  .welcome-grid-box2 {
+    grid-area: 1 / 9 / 3 / 12;
+  }
+  .welcome-grid-box3 {
+    grid-area: 3 / 6 / 5 / 13;
+  }
+  .welcome-grid-box4 {
+    grid-area: 5 / 9 / 7 / 12;
+  }
+  .welcome-grid-box5 {
+    grid-area: 5 / 1 / 7 / 8;
+  }
+  .arrow-flipped {
+    transform: translateY(-50%) scaleY(-1);
+  }
+
+  .arrow1-box {
+    border-left: none;
+    border-bottom: none;
+    border-right: 5px dotted var(--secondary);
+    border-top: 5px dotted var(--secondary);
+  }
+  .arrow1-box::after {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 24px solid var(--secondary);
+    transform: translate(50%, 50%);
+  }
+  .arrow-flipped::before {
+    bottom: 0;
+    right: 0;
+    left: unset;
+    top: unset;
+    transform: translate(50%, 0);
+  }
+  .arrow-flipped::after {
+    bottom: unset;
+    right: unset;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 24px solid var(--secondary);
+  }
+  .agreement-modal {
+    min-width: auto;
+  }
+  .profile-details-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+@media screen and (max-width: 576px) {
+  .subscription-container {
+    grid-template-columns: 1fr;
+  }
+  .subscription-card {
+    margin: 0 auto;
+  }
+  .signin-grid > div:nth-child(2) {
+    padding: 16px 8px;
+  }
+  .signin-grid > div:nth-child(1) {
+    padding: 16px 8px;
+  }
+  .modal-container {
+    width: calc(100% - 16px);
+  }
+  .login-left,
+  .login-right {
+    padding: 8px;
+  }
+  .girl {
+    transform: translateX(24px);
+    position: static;
+    margin-left: auto;
+  }
+  .login-left .glass {
+    height: auto;
+  }
+  .subscription-container-grid {
+    grid-template-columns: 1fr;
+  }
+  .payment-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .congrats-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .welcome-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, minmax(50px, 1fr));
+    gap: 70px;
+  }
+  .welcome-grid-box1 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .welcome-grid-box2 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .welcome-grid-box3 {
+    grid-area: 5 / 1 / 8 / 2;
+  }
+  .welcome-grid-box4 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  .welcome-grid-box5 {
+    grid-area: 9 / 1 / 12 / 2;
+  }
+  .arrow1-box {
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%, -50%);
+    border-bottom: 5px dotted var(--secondary);
+    border-radius: 0;
+  }
+  .arrow1-box::after {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 24px solid var(--secondary);
+    transform: translate(50%, 75%);
+  }
+  .arrow-flipped::after {
+    bottom: unset;
+    right: unset;
+    left: unset;
+    top: unset;
+    transform: translate(-40%, -75%) scale(-1);
+  }
+  .profile-details-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}
+@media screen and (max-width: 450px) {
+  .girl {
+    width: 200px;
+  }
+  p,
+  a,
+  li,
+  label,
+  select,
+  input,
+  textarea,
+  button,
+  th,
+  td {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .login-logo {
+    width: 100%;
+  }
+  .main-links-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-links-flex li {
+    width: auto;
+  }
+  .main-links-flex li span {
+    width: 40px;
+    height: 40px;
+  }
+}

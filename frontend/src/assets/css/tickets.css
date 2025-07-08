@@ -1,0 +1,32 @@
+.tickets-table .my-table-head p:nth-child(1),
+.tickets-table .my-table-body p:nth-child(1) {
+  min-width: 50px !important;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+.tickets-table .my-table-head p:nth-child(2),
+.tickets-table .my-table-body p:nth-child(2) {
+  min-width: 200px !important;
+}
+.tickets-table .my-table-head p:nth-child(3),
+.tickets-table .my-table-body p:nth-child(3) {
+  min-width: 200px !important;
+}
+.tickets-table .my-table-head p:nth-child(4),
+.tickets-table .my-table-body p:nth-child(4) {
+  min-width: 200px !important;
+}
+.tickets-table .my-table-head p:nth-child(5),
+.tickets-table .my-table-body p:nth-child(5) {
+  min-width: 300px !important;
+}
+.tickets-table .my-table-head p:nth-child(6),
+.tickets-table .my-table-body p:nth-child(6) {
+  min-width: 250px !important;
+}
+.tickets-table .my-table-head p:nth-child(7),
+.tickets-table .my-table-body p:nth-child(7) {
+  min-width: 250px !important;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
