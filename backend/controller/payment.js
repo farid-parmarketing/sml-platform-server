@@ -12,7 +12,7 @@ const initiatePayment = async (req, res) => {
       merchantTransactionId: merchantTransactionID,
       merchantUserId: merchantUserID,
       amount: amount * 100,
-      redirectUrl: `http://localhost:3000/thankyou/${merchantTransactionID}`,
+      redirectUrl: `https://platform.settlemyloan.in/thankyou/${merchantTransactionID}`,
       redirectMode: "REDIRECT",
       name,
       mobileNumber: mobile,
